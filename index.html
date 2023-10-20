@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+    <html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Jogo da Velha</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <link rel="stylesheet" href="./css/style.css">
+    </head>
+    <body>
+        <div class="card text-center" id="box-all">
+            <div class="card-header" id="box-top">
+              <h5>Jogo da Velha</h5>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                <label class="form-check-label" for="exampleRadios1">
+                  Multiplayer 👫
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                <label class="form-check-label" for="exampleRadios2">
+                  Jogar contra Robô 🤖
+                </label>
+              </div>
+            </div>
+            <div class="card-body" id="box-game">
+                <table id="grid-game">
+                    <tr>
+                        <td id="td1" onclick="clickTd(0)"></td>
+                        <td class="td-lines" id="td2" onclick="clickTd(1)"></td>
+                        <td id="td3" onclick="clickTd(2)"></td>
+                    </tr>
+                
+                    <tr class="tr-line">
+                        <td id="td4" onclick="clickTd(3)"></td>
+                        <td class="td-lines" id="td5" onclick="clickTd(4)"></td>
+                        <td id="td6" onclick="clickTd(5)"></td>
+                    </tr>
+
+                    <tr>
+                        <td id="td7" onclick="clickTd(6)"></td>
+                        <td class="td-lines" id="td8" onclick="clickTd(7)"></td>
+                        <td id="td9" onclick="clickTd(8)"></td>
+                    </tr>
+                </table>
+            </div>
+            <div class="card-footer text-body-secondary" id="box-bottom">
+              <button>Reiniciar</button>
+            </div>
+          </div>
+        <script src="./js/scripts.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    </body>
+</html>

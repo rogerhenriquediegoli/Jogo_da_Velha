@@ -1,0 +1,62 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'tahoma';
+}
+
+body{
+    background: linear-gradient(45deg, rgba(0, 0, 255, 0.749), rgb(141, 205, 227));
+    display: flex;
+    height: 100vh;
+}
+
+#box-all{
+    margin: auto;
+    width: 700px;
+    height: 500px;
+    border-radius: 20px;
+    box-shadow: 6px 6px 12px rgba(0,0,0,0.6);
+}
+
+#box-top{
+    height: 110px;
+}
+
+.form-check{
+    text-align: left;
+}
+
+.tr-line{
+    border-top: 7px solid black;
+    border-bottom: 7px solid black;
+}
+
+.td-lines{
+    border-right: 7px solid black;
+    border-left: 7px solid black;
+}
+
+#box-game{
+    display: flex;
+}
+
+#grid-game{
+    margin: auto;
+}
+
+td{
+    width: 109px;
+    height: 109px;
+}
+
+img{
+    width: 50px;
+    height: 50px;
+}
+
+
+
+
+#box-bottom{
+
+}
