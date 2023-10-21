@@ -53,9 +53,16 @@ img{
 #btn-reload{
     border: none;
     color: blue;
+    background-color: transparent;
 }
 
 #text-status-game{
     font-weight: normal;
     font-style: italic;
+}
+
+#select-mode-game{
+    position: absolute;
+    width: auto;
+    box-shadow: none;
 }
