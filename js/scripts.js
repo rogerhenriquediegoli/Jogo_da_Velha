@@ -28,21 +28,21 @@ function clickTd(id){
 function endGame(){
     if (positionsX.includes(0) && positionsX.includes(4) && positionsX.includes(8) || positionsX.includes(2) && positionsX.includes(4) && positionsX.includes(6)|| positionsX.includes(0) && positionsX.includes(1) && positionsX.includes(2) || positionsX.includes(6) && positionsX.includes(7) && positionsX.includes(8) || positionsX.includes(0) && positionsX.includes(3) && positionsX.includes(6) || positionsX.includes(2) && positionsX.includes(5) && positionsX.includes(8) || positionsX.includes(1) && positionsX.includes(4) && positionsX.includes(7) || positionsX.includes(3) && positionsX.includes(4) && positionsX.includes(5)){
         setTimeout(() => {
-            status_jogador.innerHTML = `Jogador <strong>X</strong> foi o vencedor`
+            status_jogador.innerHTML = `Jogador <strong>X</strong> foi o vencedor 🏆`
             alert("O jogador X venceu!")
-        }, 10);
+        }, 30);
         numClicks = -1
     }else if(positionsO.includes(0) && positionsO.includes(4) && positionsO.includes(8) || positionsO.includes(2) && positionsO.includes(4) && positionsO.includes(6)|| positionsO.includes(0) && positionsO.includes(1) && positionsO.includes(2) || positionsO.includes(6) && positionsO.includes(7) && positionsO.includes(8) || positionsO.includes(0) && positionsO.includes(3) && positionsO.includes(6) || positionsO.includes(2) && positionsO.includes(5) && positionsO.includes(8) || positionsO.includes(1) && positionsO.includes(4) && positionsO.includes(7) || positionsO.includes(3) && positionsO.includes(4) && positionsO.includes(5)){
         setTimeout(() => {
-            status_jogador.innerHTML = `Jogador <strong>O</strong> foi o vencedor`
+            status_jogador.innerHTML = `Jogador <strong>O</strong> foi o vencedor 🏆`
             alert("O jogador O venceu!")
-        }, 10);
+        }, 30);
         numClicks = -1
     }else if(positionsX.length == 5){
         setTimeout(() => {
-            status_jogador.innerHTML = `<strong>Empate</strong>`
+            status_jogador.innerHTML = `<strong>Empate 🤝</strong>`
             alert("Empate!")
-        }, 10);
+        }, 30);
     }   
 }
 

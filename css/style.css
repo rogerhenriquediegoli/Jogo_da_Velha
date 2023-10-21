@@ -18,7 +18,6 @@ body{
     box-shadow: 6px 6px 12px rgba(0,0,0,0.6);
 }
 
-
 .form-check{
     text-align: left;
 }
@@ -59,8 +58,4 @@ img{
 #text-status-game{
     font-weight: normal;
     font-style: italic;
-}
-
-#box-bottom{
-
 }
