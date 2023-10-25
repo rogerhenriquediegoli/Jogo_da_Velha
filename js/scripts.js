@@ -109,3 +109,7 @@ function reload(){
     numClicks = 0
     controlJogada = false
 }
+
+modoJogo.addEventListener('change', () =>{
+    reload()
+})
